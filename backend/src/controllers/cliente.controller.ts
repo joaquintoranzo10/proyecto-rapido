@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import pool from '../db.ts';
+import pool from '../db.js';
 
 // 1. Obtener todos los clientes
 export const getClientes = async (req: Request, res: Response) => {

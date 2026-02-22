@@ -5,7 +5,7 @@ import {
     crearCliente, 
     actualizarCliente, 
     eliminarCliente 
-} from '../controllers/cliente.controller.ts';
+} from '../controllers/cliente.controller.js'; // <-- CORREGIDO: Sin la extensión .ts
 
 const router = Router();
 
